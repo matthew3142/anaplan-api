@@ -20,5 +20,5 @@ API for uploading CSV data to Anaplan
 
 ### Program prerequisites
 1. Updated `config.json` parameters
-2. Have set the username and password used for Anaplan as system environment variables
+2. Have set your username and password used for Anaplan as system environment variables
 3. Have the CSV file in the same directory as the program
