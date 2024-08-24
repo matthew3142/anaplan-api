@@ -1,0 +1,23 @@
+{
+    "program_settings": {
+        "verbose_mode": false
+    },
+    "user_credentials": {
+        "environment_variable_storing_username": "ANAPLAN_USER",
+        "environment_variable_storing_password": "ANAPLAN_PASSWORD"
+    },
+    "constants": {
+        "cycle_length_minutes": 35,
+        "workspace_id": "WORKSPACE_ID_FROM_MODEL_URL",
+        "model_id": "MODEL_ID_FROM_MODEL_URL"
+    },
+    "file_configuration": {
+        "file_chunk_dir_name": "NAME_OF_DIR_TO_SAVE_CHUNKS",
+        "chunksize_mb": 50,
+        "upload_file": "CHOOSE_FILENAME.CSV"
+    },
+    "auth_token_info": {
+        "token": "will_be_updated_automatically",
+        "last_visited": "will_be_set_automatically"
+    }
+}
