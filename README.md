@@ -7,8 +7,7 @@ API for uploading CSV data to Anaplan
 3. [`requests` library](https://pypi.org/project/requests/)
 
 ## Anaplan prerequisites
-1. File to import already uploaded via UI  
-   (only have to do this once)
+1. File to import already uploaded via UI  (this only has to be done once)
 
 ## Program prerequisites
 1. Updated `config.json` parameters
