@@ -13,9 +13,9 @@ API for uploading CSV data to Anaplan
 #### How to set up an initial successful manual CSV import
 1. Format the module correctly
    a) the use of one column for each dimension, with column headers only representing one dimension
-   b) have saved this view by going to View > Save As, then the necessary options to have Anaplan favour it
+   b) have saved this view by going to `View > Save As`, then the necessary options to have Anaplan favour it
 2. Export a test version
-   a) after pressing Data > Export, use the Tabular Multiple Column format and Include Empty Rows toggled
+   a) after pressing `Data > Export`, use the `Tabular Multiple Column` format and `Include Empty Rows` option toggled
 3. Run an import of that file and ensure it works
 
 ### Program prerequisites
