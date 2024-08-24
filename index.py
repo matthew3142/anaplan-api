@@ -470,7 +470,7 @@ def main():
             basic_functions.print_w(data)
             if data['status']['code'] == 404:
                 basic_functions.print_w("-> Seems like a dump file wasn't created\n---> Here's the import metadata:")
-                basic_functions.print_w(md)
+                basic_functions.print_w(md.text)
         except requests.exceptions.JSONDecodeError as e:
             basic_functions.print_w("---> No")
             basic_functions.print_w("---> Error info here: {e}")
@@ -480,7 +480,7 @@ def main():
         basic_functions.print_w("---> No")
         basic_functions.print_w("---> Here's the full text:\n")
         basic_functions.print_w(r.text)
+    print(f"{BRIGHT_WHITE}")
 
 if __name__ == '__main__':
     main()
-    print(f"{BRIGHT_WHITE}")
