@@ -16,7 +16,7 @@ API for uploading CSV data to Anaplan
 5. On the success message, exit all the programs you started
 6. Run the remaining programs in sequential order
 
-### ngrok prerequisites
+### Ngrok prerequisites
 1. Account created
 2. Downloaded, with the `exe` saved into `System32`
 3. Configured according to providers
@@ -33,7 +33,7 @@ tunnels:
 ### Xero prerequisites
 1. Developer account with the right permissions
 2. App set up from [here](https://developer.xero.com/app/manage)
-3. Correct redirect URI in your app's configuration (this is the ngrok domain with `/callback` at the end
+3. Correct redirect URI in your app's configuration (this is the ngrok domain plus `/callback` at the end)
 4. No more than 2 uncertified apps connected at once
 
 ### Anaplan prerequisites
