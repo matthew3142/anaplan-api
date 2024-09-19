@@ -4,7 +4,13 @@
     },
     "user_credentials": {
         "environment_variable_storing_username": "ANAPLAN_USER",
-        "environment_variable_storing_password": "ANAPLAN_PASSWORD"
+        "environment_variable_storing_password": "ANAPLAN_PASSWORD",
+        "xero_client_id": "YOUR_ID",
+        "xero_client_secret": "YOUR_SECRET",
+        "xero_redirect_uri": "YOUR_URI"
+    },
+    "xero_params": {
+        "scope": "your.scope.here"
     },
     "constants": {
         "cycle_length_minutes": 35,
