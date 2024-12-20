@@ -3,10 +3,13 @@ API for uploading CSV data to Anaplan
 
 ### Software prerequisites
 1. [Python 3 or later](https://www.python.org/downloads/)
-2. [`filesplit` library](https://pypi.org/project/filesplit/)
-3. [`requests` library](https://pypi.org/project/requests/)
-4. [`Flask` library](https://pypi.org/project/Flask/)
-5. [`ngrok` proxy](https://ngrok.com/download/)
+2. [Google Chrome v114](https://www.filepuma.com/download/google_chrome_64bit_114.0.5735.199-35569)
+3. [`filesplit` library](https://pypi.org/project/filesplit/)
+4. [`requests` library](https://pypi.org/project/requests/)
+5. [`Flask` library](https://pypi.org/project/Flask/)
+6. [`ngrok` proxy](https://ngrok.com/download/)
+7. [`Selenium` webdriver](https://pypi.org/project/selenium/)
+8. [`ChromeDriver` v114](https://chromedriver.storage.googleapis.com/index.html?path=114.0.5735.90%2F)
 
 ### How to use (after all prerequisites are met)
 1. Run the `cmd` window and type `ngrok start my-app`
@@ -53,3 +56,9 @@ tunnels:
 1. Updated `config.json` parameters - this requires keys and info from both Xero and Anaplan
 2. Have set your username and password used for Anaplan as system environment variables
 3. Have the CSV file in the same directory as the program
+4. `ChromeDriver` executable added to `PATH` (the easiest way to do this is as follows)
+   1. Create a new directory `C:\Webdrivers` and put the `exe` inside it
+   2. Search Start for `environment variables`
+   3. Under "System variables", open "Path"
+   4. Add `C:\webdrivers`
+   5. Click `Ok` to exit out of everything
