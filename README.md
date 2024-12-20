@@ -63,4 +63,4 @@ tunnels:
 2. Search Start for `environment variables`
 3. Under "System variables", open "Path"
 4. Add `C:\webdrivers`
-5. Click `Ok` to exit out of everything
+5. Save and exit everything
