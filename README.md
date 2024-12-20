@@ -24,7 +24,7 @@ API for uploading CSV data to Anaplan
 2. Downloaded, with the `exe` saved into `System32`
 3. Configured according to providers
 4. Reserved a domain (done [here](https://dashboard.ngrok.com/cloud-edge/domains))
-5. Added this domain to `ngrok.yml` (usually located within `%appdata%`) as the following:
+5. Added this domain to `ngrok.yml` (usually located within `%appdata%\..\Local\ngrok\`) as the following:
 ```
 tunnels:
     my-app:
