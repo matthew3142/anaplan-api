@@ -57,8 +57,10 @@ tunnels:
 2. Have set your username and password used for Anaplan as system environment variables
 3. Have the CSV file in the same directory as the program
 4. `ChromeDriver` executable added to `PATH` (the easiest way to do this is as follows)
-   1. Create a new directory `C:\Webdrivers` and put the `exe` inside it
-   2. Search Start for `environment variables`
-   3. Under "System variables", open "Path"
-   4. Add `C:\webdrivers`
-   5. Click `Ok` to exit out of everything
+
+#### How to add `ChromeDriver` to `PATH`
+1. Create a new directory `C:\Webdrivers` and put the `exe` inside it
+2. Search Start for `environment variables`
+3. Under "System variables", open "Path"
+4. Add `C:\webdrivers`
+5. Click `Ok` to exit out of everything
