@@ -35,6 +35,7 @@ tunnels:
 2. App set up from [here](https://developer.xero.com/app/manage)
 3. Correct redirect URI in your app's configuration (this is the ngrok domain plus `/callback` at the end)
 4. No more than 2 uncertified apps connected at once
+5. Put required [scopes](https://developer.xero.com/documentation/guides/oauth2/scopes/) in `config.json`. For example, `accounting.transactions.read`.
 
 ### Anaplan prerequisites
 1. File to import already uploaded via UI  (this only has to be done once)
